@@ -11,7 +11,7 @@ menuIcon.onClick = () => {
 
 
 let sections = document.querySelectorAll('section');
-let navLinks = document.querySelectorAll('header nav a');
+let navLinks = document.querySelectorAll('heading nav a');
 
 windows.onscroll = () => {
     sections.forEach(sec => {
@@ -23,7 +23,7 @@ windows.onscroll = () => {
         if(top >=offset && top < offset + height) {
             navLinks.forEach(links => {
                 links.classList.remove('active');
-                document.querySelector('header nav a[href*=' + id +']').classList.add('active');
+                document.querySelector('heading nav a[href*=' + id +']').classList.add('active');
         })
         }
     })
@@ -40,8 +40,10 @@ windows.onscroll = () => {
 }
 
 ScrollReveal({
-    reset:true,
+    reset: true,
     distance: '100px',
     duration: 2000,
     delay: 150
 })
+
+ScrollReveal().reveal('.home-content', '.header', {origin: 'top'})

@@ -37,7 +37,7 @@ section {
     padding: 10rem 9% 2rem;
 }
 
-.heading {
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -168,7 +168,7 @@ span {
     width: 35vw;
 }
 
-.header {
+.heading  {
     text-align: center;
     font-size: 4.5rem;
 
@@ -409,7 +409,7 @@ span {
 }
 
 @media (max-width: 991px) {
-    .heading {
+    .header {
         padding: 2rem 3%;
     }
     section {

@@ -39,3 +39,9 @@ windows.onscroll = () => {
 
 }
 
+ScrollReveal({
+    reset:true,
+    distance: '100px',
+    duration: 2000,
+    delay: 150
+})

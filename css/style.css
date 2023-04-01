@@ -160,7 +160,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
     background: var(--main-bg-color);
 }
 
@@ -187,10 +187,10 @@ span {
     text-align: left;
 }
 
-.about-info h2 {
-    text-align: center;
-    line-height: 1.2;
-    margin-bottom: 15rem;
+.about-info h1 {
+    
+    width: 30rem;
+    
 }
 
 
@@ -198,13 +198,13 @@ span {
 .about-info p {
     font-size: 2.6rem;
     margin: 2rem 0 3rem;
-    letter-spacing: .1rem;
-    justify-content: end;
+    letter-spacing: .06rem;
+    /* justify-content: end; */
     
 }
 
 .services h2 {
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 
 }
 
@@ -221,11 +221,10 @@ span {
     flex: 1 1 30rem;
     background: var(--second-bg-color);
     padding: 3rem 2rem 4rem;
-    border-radius: 2rem;
-    border-radius: 2rem;
+    border-radius: 2.2rem;
     text-align: center;
     border: .2rem solid var(--bg-color);
-    transition: .5s ease;
+    transition: .6s ease;
     
 }
 
@@ -261,7 +260,7 @@ span {
 }
 
 .portfolio-container {
-    display: grid;
+    display: inline-flex;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 2.5rem;
@@ -274,6 +273,10 @@ span {
     overflow: hidden;
     display: flex;
 
+}
+
+.portfolio-box {
+    margin-left: 2rem;
 }
 
 .portfolio-box img {

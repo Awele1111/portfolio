@@ -9,3 +9,10 @@ My goal & motivation is to build a portfolio page with deployed projects as the 
 
 Attached below are screenshots of my deployed portfolio website
 
+![Portfolio](images/Portfolio6.png)
+
+![Portfolio](images/Portfolio2.png)
+
+![Portfolio](images/Portfolio4.png)
+
+![Portfolio](images/Portfolio5.png)

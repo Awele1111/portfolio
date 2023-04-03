@@ -32,6 +32,7 @@ This page was accomplished with technologies such as Javascript, HTML & CSS. In 
 ## Usage
  Usage of my portfolio application is done when an employer is able to access my Resume, an about me that tells a brief description about myself and experiences. This application also enables an employer to view my completed projects via the app directly through the links. This application also allows employers to contact me through the form in the contact section.
 
- ##Links
+ ## Links
+
  Code link - https://github.com/Awele1111/portfolio
  Demo Link - https://awele1111.github.io/portfolio/
